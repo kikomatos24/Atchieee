@@ -1,0 +1,98 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */    
+body {
+    background-color: #f2f2f2;
+}
+
+/* Style the header */    
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the main content */
+.main-title {
+    font-size: 2em;
+}
+
+.intro-container {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.contact-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #555;
+}
+
+/* Style the project images */
+.project-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Style the about and contact sections */
+.about-container, .contact-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Adjust the social media links */
+.social-heading {
+    margin-top: 20px;
+}
+
+/* Add some spacing to the contact links */
+.contact-link {
+    margin-right: 10px;
+}
+
+/* Center the name and degree */
+.name, h3 {}
+    text-align: center;
+}
+
+/* Center the logo */
+.logo-container {
+    text-align: center;
+}
+
+/* Add some space to the email link */
+.contact-list li {
+    margin-bottom: 10px;
+}
